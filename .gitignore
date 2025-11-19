@@ -1,0 +1,35 @@
+# Python 虛擬環境
+.venv/
+venv/
+env/
+
+# Python 編譯產物
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter / 互動紀錄（如果未來有用）
+.ipynb_checkpoints/
+
+# 本地設定檔（比如 VS Code）
+.vscode/
+
+# 系統檔案（Windows / macOS）
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 資料檔案（真實市場資料、較大檔案）
+data/raw/
+data/processed/
+data/labels/
+
+# 實驗輸出（如果體積大、不需要完整上傳）
+experiments/
+!experiments/README.md
+
+# 環境變數 / 金鑰
+.env
+*.env
+config_local.json
